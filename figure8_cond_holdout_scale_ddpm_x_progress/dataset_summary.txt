@@ -1,0 +1,8 @@
+train_windows: 387528
+val_windows: 97364
+train_episodes: 402
+val_episodes: 101
+obs_dim: 14
+act_dim: 7
+cond_dim: 8
+split_mode: holdout_scale

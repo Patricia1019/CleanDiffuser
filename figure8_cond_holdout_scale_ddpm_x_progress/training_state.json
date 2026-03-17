@@ -1,0 +1,35 @@
+{
+  "args": {
+    "action_loss_weight": 5.0,
+    "batch_size": 256,
+    "center_threshold": null,
+    "data": "/home/patricia/Desktop/Learn/projects/diffusion-koopman/spark/data/figure8/kinova_gen3_figure8_500k.npz",
+    "device": "cuda",
+    "diffusion_steps": 50,
+    "dim_mult": [
+      1,
+      2,
+      2
+    ],
+    "ema_rate": 0.995,
+    "gradient_steps": 10000,
+    "horizon": 32,
+    "log_interval": 100,
+    "model_dim": 64,
+    "num_workers": 4,
+    "predict_noise": false,
+    "sampling_steps": 50,
+    "save_dir": "results/figure8_cond_holdout_scale_ddpm_x_progress",
+    "save_interval": 5000,
+    "scale_threshold": null,
+    "seed": 0,
+    "solver": "ddpm",
+    "speed_threshold": null,
+    "split_mode": "holdout_scale",
+    "val_interval": 1000,
+    "val_ratio": 0.2
+  },
+  "best_val_loss": 0.06189067191701001,
+  "checkpoint": "diffusion_ckpt_final.pt",
+  "step": 10000
+}
